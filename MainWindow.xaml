@@ -5,8 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculatorApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Height="600" Width="500"
+        Background="#4b3b63"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        ResizeMode="NoResize"
+        >
+    
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
 
+        <Border Background="#3d3d3d"
+                MouseDown="Border_MouseDown">
+            <Grid HorizontalAlignment="Stretch">
+                
+                <Label Content="CalculatorApp"
+                       Foreground="Gray"
+                       FontWeight="SemiBold"/>
+
+                <StackPanel HorizontalAlignment="Right"
+                            Orientation="Horizontal">
+
+                    <Button Width="20" Height="20" 
+                            Content="🗕"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Foreground="Gray"
+                            FontWeight="Bold"
+                            Click="ButtonMinimize_Click"/>
+
+                    <Button Width="20" Height="20" 
+                            Content="╳"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Foreground="Gray"
+                            FontWeight="Bold"
+                            Click="ButtonClose_Click"/>
+
+                </StackPanel>
+                
+            </Grid>
+            
+        </Border>
+        
+        
+        
     </Grid>
+    
 </Window>
