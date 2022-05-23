@@ -93,7 +93,7 @@ namespace CalculatorApp
 
         private void equal_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void plus_Click(object sender, RoutedEventArgs e)
