@@ -113,7 +113,7 @@ namespace CalculatorApp
 
         private void delete_Click(object sender, RoutedEventArgs e)
         {
-
+            Display.Undo();
         }
     }
 }
