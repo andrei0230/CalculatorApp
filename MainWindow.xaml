@@ -9,8 +9,7 @@
         Background="#4b3b63"
         WindowStyle="None"
         AllowsTransparency="True"
-        ResizeMode="NoResize"
-        >
+        ResizeMode="NoResize">
     
     <Grid>
         <Grid.RowDefinitions>
@@ -64,9 +63,152 @@
                      VerticalContentAlignment="Bottom"
                      FontSize="20"
                      FontWeight="SemiBold"
-                     />
+                     Margin="0,0,0,20"/>
 
-            
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Button Name="seven"
+                        Grid.Column="0" Grid.Row="0"
+                        Width="50"
+                        Height="50"
+                        Content="7"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="eight"
+                        Grid.Column="1" Grid.Row="0"
+                        Width="50"
+                        Height="50"
+                        Content="8"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="nine"
+                        Grid.Column="2" Grid.Row="0"
+                        Width="50"
+                        Height="50"
+                        Content="9"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="four"
+                        Grid.Column="0" Grid.Row="1"
+                        Width="50"
+                        Height="50"
+                        Content="4"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="five"
+                        Grid.Column="1" Grid.Row="1"
+                        Width="50"
+                        Height="50"
+                        Content="5"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="six"
+                        Grid.Column="2" Grid.Row="1"
+                        Width="50"
+                        Height="50"
+                        Content="6"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="one"
+                        Grid.Column="0" Grid.Row="2"
+                        Width="50"
+                        Height="50"
+                        Content="1"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="two"
+                        Grid.Column="1" Grid.Row="2"
+                        Width="50"
+                        Height="50"
+                        Content="2"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="three"
+                        Grid.Column="2" Grid.Row="2"
+                        Width="50"
+                        Height="50"
+                        Content="3"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="zero"
+                        Grid.Column="1" Grid.Row="3"
+                        Width="50"
+                        Height="50"
+                        Content="0"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="equal"
+                        Grid.Column="3" Grid.Row="0"
+                        Width="50"
+                        Height="50"
+                        Content="="
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="plus"
+                        Grid.Column="3" Grid.Row="1"
+                        Width="50"
+                        Height="50"
+                        Content="+"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="minus"
+                        Grid.Column="3" Grid.Row="2"
+                        Width="50"
+                        Height="50"
+                        Content="-"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+                <Button Name="multiply"
+                        Grid.Column="3" Grid.Row="3"
+                        Width="50"
+                        Height="50"
+                        Content="*"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"/>
+
+
+            </Grid>
 
         </StackPanel>
         
