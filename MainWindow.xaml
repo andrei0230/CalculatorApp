@@ -89,7 +89,8 @@
                         Content="7"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="seven_Click"/>
 
                 <Button Name="eight"
                         Grid.Column="1" Grid.Row="0"
@@ -98,7 +99,8 @@
                         Content="8"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="eight_Click"/>
 
                 <Button Name="nine"
                         Grid.Column="2" Grid.Row="0"
@@ -107,7 +109,8 @@
                         Content="9"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="nine_Click"/>
 
                 <Button Name="four"
                         Grid.Column="0" Grid.Row="1"
@@ -116,7 +119,8 @@
                         Content="4"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="four_Click"/>
 
                 <Button Name="five"
                         Grid.Column="1" Grid.Row="1"
@@ -125,7 +129,8 @@
                         Content="5"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="five_Click"/>
 
                 <Button Name="six"
                         Grid.Column="2" Grid.Row="1"
@@ -134,7 +139,8 @@
                         Content="6"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="six_Click"/>
 
                 <Button Name="one"
                         Grid.Column="0" Grid.Row="2"
@@ -143,7 +149,8 @@
                         Content="1"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="one_Click"/>
 
                 <Button Name="two"
                         Grid.Column="1" Grid.Row="2"
@@ -152,7 +159,8 @@
                         Content="2"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="two_Click"/>
 
                 <Button Name="three"
                         Grid.Column="2" Grid.Row="2"
@@ -161,16 +169,19 @@
                         Content="3"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="three_Click"/>
 
                 <Button Name="zero"
-                        Grid.Column="1" Grid.Row="3"
-                        Width="50"
+                        Grid.Column="0" Grid.Row="3"
+                        Width="125"
                         Height="50"
                         Content="0"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Grid.ColumnSpan="2"
+                        Click="zero_Click"/>
 
                 <Button Name="equal"
                         Grid.Column="3" Grid.Row="0"
@@ -179,34 +190,48 @@
                         Content="="
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="equal_Click"/>
 
                 <Button Name="plus"
-                        Grid.Column="3" Grid.Row="1"
+                        Grid.Column="3" Grid.Row="2"
                         Width="50"
                         Height="50"
                         Content="+"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="plus_Click"/>
 
                 <Button Name="minus"
-                        Grid.Column="3" Grid.Row="2"
+                        Grid.Column="3" Grid.Row="3"
                         Width="50"
                         Height="50"
                         Content="-"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="minus_Click"/>
 
                 <Button Name="multiply"
-                        Grid.Column="3" Grid.Row="3"
+                        Grid.Column="2" Grid.Row="3"
                         Width="50"
                         Height="50"
                         Content="*"
                         FontSize="30"
                         FontWeight="Bold"
-                        Margin="0,12.5,0,12.5"/>
+                        Margin="0,12.5,0,12.5"
+                        Click="multiply_Click"/>
+
+                <Button Name="delete"
+                        Grid.Column="3" Grid.Row="1"
+                        Width="50"
+                        Height="50"
+                        Content="del"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"
+                        Click="delete_Click"/>
 
 
             </Grid>

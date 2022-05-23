@@ -40,5 +40,80 @@ namespace CalculatorApp
         {
             Application.Current.Shutdown();
         }
+
+        private void seven_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("7");
+        }
+
+        private void eight_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("8");
+        }
+
+        private void nine_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("9");
+        }
+
+        private void four_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("4");
+        }
+
+        private void five_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("5");
+        }
+
+        private void six_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("6");
+        }
+
+        private void one_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("1");
+        }
+
+        private void two_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("2");
+        }
+
+        private void three_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("3");
+        }
+
+        private void zero_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("0");
+        }
+
+        private void equal_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void plus_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText(" + ");
+        }
+
+        private void minus_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText(" - ");
+        }
+
+        private void multiply_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText(" * ");
+        }
+
+        private void delete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
