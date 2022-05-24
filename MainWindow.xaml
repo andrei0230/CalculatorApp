@@ -80,6 +80,7 @@
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
+                    <RowDefinition/>
                 </Grid.RowDefinitions>
 
                 <Button Name="seven"
@@ -173,15 +174,24 @@
                         Click="three_Click"/>
 
                 <Button Name="zero"
-                        Grid.Column="0" Grid.Row="3"
-                        Width="125"
+                        Grid.Column="1" Grid.Row="3"
+                        Width="50"
                         Height="50"
                         Content="0"
                         FontSize="30"
                         FontWeight="Bold"
                         Margin="0,12.5,0,12.5"
-                        Grid.ColumnSpan="2"
                         Click="zero_Click"/>
+
+                <Button Name="point"
+                        Grid.Column="0" Grid.Row="3"
+                        Width="50"
+                        Height="50"
+                        Content="."
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"
+                        Click="point_Click"/>
 
                 <Button Name="equal"
                         Grid.Column="3" Grid.Row="0"
@@ -194,7 +204,7 @@
                         Click="equal_Click"/>
 
                 <Button Name="plus"
-                        Grid.Column="3" Grid.Row="2"
+                        Grid.Column="3" Grid.Row="3"
                         Width="50"
                         Height="50"
                         Content="+"
@@ -204,7 +214,7 @@
                         Click="plus_Click"/>
 
                 <Button Name="minus"
-                        Grid.Column="3" Grid.Row="3"
+                        Grid.Column="3" Grid.Row="4"
                         Width="50"
                         Height="50"
                         Content="-"
@@ -232,6 +242,46 @@
                         FontWeight="Bold"
                         Margin="0,12.5,0,12.5"
                         Click="delete_Click"/>
+
+                <Button Name="divide"
+                        Grid.Column="0" Grid.Row="4"
+                        Width="50"
+                        Height="50"
+                        Content="/"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"
+                        Click="divide_Click"/>
+
+                <Button Name="Left_Paranthesis"
+                        Grid.Column="1" Grid.Row="4"
+                        Width="50"
+                        Height="50"
+                        Content="("
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"
+                        Click="Left_Paranthesis_Click"/>
+
+                <Button Name="Right_Paranthesis"
+                        Grid.Column="2" Grid.Row="4"
+                        Width="50"
+                        Height="50"
+                        Content=")"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"
+                        Click="Right_Paranthesis_Click"/>
+
+                <Button Name="Clear_All"
+                        Grid.Column="3" Grid.Row="2"
+                        Width="50"
+                        Height="50"
+                        Content="Ac"
+                        FontSize="30"
+                        FontWeight="Bold"
+                        Margin="0,12.5,0,12.5"
+                        Click="Clear_All_Click"/>
 
 
             </Grid>

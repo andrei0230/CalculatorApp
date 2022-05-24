@@ -115,5 +115,30 @@ namespace CalculatorApp
         {
             Display.Undo();
         }
+
+        private void point_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText(".");
+        }
+
+        private void divide_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText(" / ");
+        }
+
+        private void Left_Paranthesis_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText("( ");
+        }
+
+        private void Right_Paranthesis_Click(object sender, RoutedEventArgs e)
+        {
+            Display.AppendText(" )");
+        }
+
+        private void Clear_All_Click(object sender, RoutedEventArgs e)
+        {
+            Display.Clear();
+        }
     }
 }
