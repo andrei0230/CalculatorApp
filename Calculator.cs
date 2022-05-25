@@ -8,6 +8,14 @@ namespace CalculatorApp
 {
     static class Calculator
     {
+        private static string ShuntingYard(string input)
+        {
+            string output = string.Empty;
+
+            // Code goes here
+
+            return output;
+        }
         public static string Solve(string input)
         {
             string output = string.Empty;
