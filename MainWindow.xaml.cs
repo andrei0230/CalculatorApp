@@ -93,7 +93,9 @@ namespace CalculatorApp
 
         private void equal_Click(object sender, RoutedEventArgs e)
         {
-            Display.AppendText(Environment.NewLine + Calculator.Solve(Display.Text));
+            string input = Display.GetLineText(Display.GetLastVisibleLineIndex());
+            Display.AppendText(Environment.NewLine + Calculator.Solve(input) + Environment.NewLine);
+            Display.ScrollToEnd();
         }
 
         private void plus_Click(object sender, RoutedEventArgs e)
