@@ -93,7 +93,7 @@ namespace CalculatorApp
 
         private void equal_Click(object sender, RoutedEventArgs e)
         {
-            
+            Display.AppendText(Environment.NewLine + Calculator.Solve(Display.Text));
         }
 
         private void plus_Click(object sender, RoutedEventArgs e)
