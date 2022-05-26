@@ -92,13 +92,13 @@ namespace CalculatorApp
 
                     switch (s[0])
                     {
-                        case '+': stack.Push(t1 + t2); 
+                        case '+': stack.Push(t2 + t1); 
                             break;
-                        case '-': stack.Push(t1 - t2);
+                        case '-': stack.Push(t2 - t1);
                             break;
-                        case '*': stack.Push(t1 * t2);
+                        case '*': stack.Push(t2 * t1);
                             break;
-                        case '/': stack.Push(t1 / t2);
+                        case '/': stack.Push(t2 / t1);
                             break;
                     }
                 }
