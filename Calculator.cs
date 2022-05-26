@@ -49,6 +49,14 @@ namespace CalculatorApp
                     }
                     operators.Push(token);
                 }
+                else if (token[0] == ')')
+                {
+                    while ((operators.Peek())[0] != '(')
+                    {
+                        builder.Append($"{operators.Pop()} ");
+                    }
+                    operators.Pop();
+                }
             }
             while (operators.Count > 0)
                 {
